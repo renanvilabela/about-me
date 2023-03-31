@@ -1,0 +1,90 @@
+ion-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    color: #17A98F;
+    font-size: 5em;
+
+    &:hover {
+        cursor: pointer;
+        color: #17a98ee0;
+    }
+}
+
+section {
+    margin-top: 22px;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .container-about-me {
+        padding: 22px;
+        height: 100%;
+        width: 1222px;
+        display: flex;
+        flex-direction: row;
+
+        .box-description{
+            height: 100%;
+            width: 50%;
+            padding:62px 22px;
+
+            &:nth-child(1){
+                margin-right: 22px;
+            }
+
+            h2 {
+                color: #f5f2f2;
+                margin-bottom: 22px;
+                font-size: 2.2em;
+                font-weight: 400;
+            }
+
+            ul {
+                list-style-type: none;
+                li {
+                    margin-bottom: 22px;
+                    h4 {
+                        font-size: 1.4em;
+                        color: #17A98F;
+                        font-weight: 300;
+                        span {
+                            color: #f5f2f2;
+                            font-size: 0.9em;
+                        }
+                    }
+                }
+            }
+
+            p{
+                color: #f5f2f2;
+                font-size: 1em;
+                margin-bottom: 12px;
+            }
+
+
+        }
+    }
+    .container-images {
+        height:100%;
+        width: 372px;
+        padding: 24px 22px;
+
+        .box-image{
+            background-color: green;
+            width: 100%;
+            height: 48%;
+            &:nth-child(1) {
+                margin-bottom: 22px;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 22px;
+                object-fit: cover;
+            }
+        }
+    }
+}

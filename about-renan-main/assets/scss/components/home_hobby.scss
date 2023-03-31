@@ -1,0 +1,44 @@
+
+
+section {
+
+    .container-hobby {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .title-section {
+            p {
+                margin-top: 82px;
+                font-size: 2em;
+                color: aliceblue;
+                font-weight: bold;
+                width: 400px;
+
+            }
+        }
+
+        .container-boxes-links {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .boxe {
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+            }
+
+            .box-link {
+                height: 220px;
+                width: 50%;
+                margin: 12px;
+            }
+        }
+
+
+    }
+}

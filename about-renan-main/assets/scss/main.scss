@@ -1,0 +1,76 @@
+// importando estilizações
+@import './components/about-me.scss';
+@import './components/home_hobby.scss';
+@import './components/list_elements_hobby.scss';
+
+// importando font
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+// resetando estilização padrão dos browsers
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+// estilizações globais
+body {
+    background-color: #3A3A3A;
+    color: aliceblue;
+    height: 100vh;
+    padding: 2em;
+    #wrapper {
+        position: relative;
+        height: 100%;
+        max-width: 82em;
+        margin: auto;
+        header {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            #home-page{
+                cursor: pointer;
+                padding-left: 22px;
+                text-decoration: none;
+                color: inherit;
+                h1 {
+                    font-size: 3em;
+                    span {
+                        color: #17A98F;
+                    }
+                    margin-bottom: 22px;
+                }
+            }
+        }
+
+        .bg-box {
+            background-color: #2E2E2E;
+            border: 2px solid #17A98F;
+            border-radius: 22px;
+        }
+
+        .box-link {
+            background-color: #2E2E2E;
+            border: 2px solid #1177AA;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            a {
+                color: #09CECE;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+
+            &:hover{
+                background-color: #2e2e2e66;
+            }
+        }
+    }
+}
+
+
+
